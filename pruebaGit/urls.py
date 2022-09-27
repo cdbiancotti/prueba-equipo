@@ -19,7 +19,7 @@ from .views import hola, cdb_vista
 
 urlpatterns = [
     path('hola/', hola),
-    path('vista-cdb/', cdb_vista),
+    path('cdb/', cdb_vista),
     path('admin/', admin.site.urls),
 ]
  
