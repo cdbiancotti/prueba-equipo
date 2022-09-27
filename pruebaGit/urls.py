@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import hola
+from .views import hola, cdb_vista
 
 urlpatterns = [
     path('hola/', hola),
+    path('vista-cdb/', cdb_vista),
     path('admin/', admin.site.urls),
 ]
