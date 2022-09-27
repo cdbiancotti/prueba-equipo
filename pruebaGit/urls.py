@@ -22,3 +22,4 @@ urlpatterns = [
     path('vista-cdb/', cdb_vista),
     path('admin/', admin.site.urls),
 ]
+ 
